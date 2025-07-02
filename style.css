@@ -506,6 +506,10 @@ footer h5{
   .hero-info{
     display: none;
   }
+  .hero-text{
+    padding: 1.5rem 0;
+    justify-content: center;
+  }
   .hero-title h1{
     font-size: 7rem;
   }
@@ -527,7 +531,7 @@ footer h5{
   }
   .product{
     padding-top: 2rem;
-    width: 20.4rem;
+    width: 21.2rem;
   }
   .product-info p{
     font-size: 1.2rem;
@@ -556,7 +560,7 @@ footer h5{
   }
   .footer-wrapper{
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
   }
   .footer-1{
     gap: 2rem;
@@ -569,6 +573,8 @@ footer h5{
     align-items: start;
   }
   .f-bottom h5{
-    font-size: 6.75rem;
+    font-size: 6.9rem;
+    display: flex;
+    justify-content: center;
   }
 }
