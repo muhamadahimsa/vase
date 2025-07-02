@@ -53,6 +53,7 @@ nav{
   display: flex;
   justify-content: space-between;
   background-color: var(--primary);
+  display: none;
 }
 nav .ofh{
   display: flex;
@@ -497,7 +498,7 @@ footer h5{
     justify-content: center;
   }
   .vase-img{
-    width: 4.4rem;
+    width: 4rem;
   }
   .hero-cta{
     top: 67.5%;
@@ -526,7 +527,7 @@ footer h5{
   }
   .product{
     padding-top: 2rem;
-    width: 23rem;
+    width: 20.4rem;
   }
   .product-info p{
     font-size: 1.2rem;
@@ -545,7 +546,8 @@ footer h5{
     min-height: 80vh;
   }
   .texts h4{
-    font-size: 2rem;
+    font-size: 1.65rem;
+    line-height: 1;
     width: 85vw;;
   }
 
@@ -554,19 +556,19 @@ footer h5{
   }
   .footer-wrapper{
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
   }
   .footer-1{
     gap: 2rem;
   }
   .email{
-    width: 16rem;
+    width: 15rem;
   }
   .f-bottom{
     flex-direction: column;
     align-items: start;
   }
   .f-bottom h5{
-    font-size: 7.5rem;
+    font-size: 6.75rem;
   }
 }
